@@ -1,0 +1,49 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* dark blue gradient */
+  color: #f0c95e; /* gold-ish text */
+  text-align: center;
+  padding: 0 20px;
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.hero-subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.hero-button {
+  background-color: #f0c95e;
+  color: #0f2027;
+  padding: 14px 36px;
+  border-radius: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(240, 201, 94, 0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #d4b84e;
+  box-shadow: 0 6px 12px rgba(212, 184, 78, 0.6);
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

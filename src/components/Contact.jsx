@@ -15,5 +15,6 @@ export default function Contact() {
         <a href="tel:+27695080798">069 508 0798</a>
       </p>
     </section>
+    // to check if git is tracking the changes!!
   );
 }

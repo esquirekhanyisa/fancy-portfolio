@@ -5,9 +5,9 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "A personal portfolio website built with React and CSS.",
-    image: "https://via.placeholder.com/300x180?text=Portfolio+Website",
-    demoLink: "#",
-    codeLink: "https://github.com/khanyisa/portfolio",
+    image: "https://www.esquire.co.za",
+    demoLink: "https://www.esquire.co.za",
+    codeLink: "https://www.esquire.co.za",
   },
   {
     title: "Todo App",
